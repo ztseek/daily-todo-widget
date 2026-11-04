@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">待办小部件</string>
+    <string name="widget_label">待办清单</string>
+    <string name="widget_description">在桌面直接查看并勾掉待办，到期自动回来</string>
+
+    <string name="screen_title">待办清单</string>
+    <string name="action_add">新建待办</string>
+    <string name="action_settings">设置</string>
+    <string name="action_save">保存</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">删除</string>
+
+    <string name="empty_title">还没有待办</string>
+    <string name="empty_hint">点右下角 + 新建一条，然后把小部件拖到桌面</string>
+
+    <string name="field_title">待办内容</string>
+    <string name="field_title_hint">例如：吃降压药</string>
+    <string name="field_repeat">刷新周期</string>
+    <string name="field_refresh_time">刷新时刻</string>
+    <string name="field_weekdays">星期几刷新</string>
+    <string name="field_month_day">每月几号</string>
+    <string name="field_interval">间隔天数</string>
+
+    <string name="repeat_once">一次性</string>
+    <string name="repeat_daily">每天</string>
+    <string name="repeat_weekly">每周</string>
+    <string name="repeat_monthly">每月</string>
+    <string name="repeat_interval">隔几天</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_count_overdue">记录逾期次数</string>
+    <string name="settings_count_overdue_desc">关闭时：到期没点掉的任务原样留着。打开后：每越过一个刷新点仍未完成，逾期次数 +1 并标红。</string>
+    <string name="settings_exact_alarm">允许精确闹钟</string>
+    <string name="settings_exact_alarm_desc">系统默认会限制后台精确闹钟。开启后待办能准时回到桌面，误差通常在一分钟内。</string>
+    <string name="settings_battery">关闭电池优化</string>
+    <string name="settings_battery_desc">部分国产系统会清理后台，导致定时刷新失效。把本应用加入「不受限制」名单可显著改善。</string>
+    <string name="settings_open">去开启</string>
+</resources>

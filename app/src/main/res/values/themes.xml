@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 用 DeviceDefault 而不是 Material3 的 XML 主题：
+         界面全部由 Compose 绘制，XML 主题只负责启动窗口背景，
+         这样就不必额外引入 com.google.android.material 依赖。 -->
+    <style name="Theme.DailyTodo" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+</resources>
